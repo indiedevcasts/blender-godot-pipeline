@@ -3,6 +3,11 @@
 A Blender add-on to save you time when exporting glTF assets and modeling game maps. **This add-on only works with mesh
 objects**.
 
+Features:
+
+- Reset the location and rotation of your mesh object
+- Generate a mesh collider for Godot
+
 ## Developer note
 
 This Blender add-on is under development. While it can be used if you find it helpful it might be bugged and not easy
@@ -18,7 +23,9 @@ to install.
 
 ## Usage
 
-- Select one or several objects from the hierarchy
+This add-on doesn't support multiple exports yet.
+
+- Select one object from the hierarchy
 - File > Export > glTF 2.0
 - Then expand the panel "Export with Reset Options" at the bottom-left
 - Check the options as you prefer and add the path of your exported asset(s)
